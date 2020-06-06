@@ -3,7 +3,7 @@ body{
 }
 canvas{
     border: 2px solid black;
-    background-image: url("/image/game/grasses68.gif");
+    background-image: url("https://j2151918.github.io/webdemo/image/game/grasses68.gif");
     width: 600px;   
     height: 600px;
 }

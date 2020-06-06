@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    
+    <title>1051532 - Slot Machine</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="random-select/style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">s1051532</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Slot Machine<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="game.html">Canvas Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="game2.html">Stone Pusher</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="youtube.html">Youtube Player</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+    </header>
+    <br>
+    <h1>Slot Machine</h1>
+        <div class="slot">
+          <p>
+            <img src="image/slotmachine/Spade.png" id="left">
+            <img src="image/slotmachine/Spade.png" id="middle">
+            <img src="image/slotmachine/Spade.png" id="right">
+          </p>
+          <h2 id="previousoutcome">-</h2>
+          <p>
+            Win:<span id="win">0</span>  Lose:<span id="lose">0</span><br>
+            Total:<span id="total">0</span>  Winrate:<span id="winrate">X</span>
+          </p>
+          <p>圖案數量: <span id="numberofsymbol">3</span>
+            <input type="range" min="3" max="5" value="3" class="slider" id="symbol">
+          <br>
+          額外倍數：<span id="bonus">1</span>
+          <br>
+          代幣: <span id="coins">100</span> 下注：<span id="betnum">1</span><input type="range" min="1" max="100" value="0" class="slider" id="betbar">
+          </p>
+          <input type="button" id="spin" value="旋轉">
+        </div>
+        <h1>獎勵表</h1>
+        <table align="center">
+          <tr>
+            <th>花色</th>
+            <th>基本獎勵</th>
+          </tr>
+          <tr class="gray">
+            <td>梅花</td>
+            <td id="club">3</td>
+          </tr>
+          <tr>
+            <td>方塊</td>
+            <td id="diamond">5</td>
+          </tr>
+          <tr class="gray">
+            <td>紅心</td>
+            <td id="heart">7</td>
+          </tr>
+          <tr>
+            <td>黑桃</td>
+            <td id="spade">X</td>
+          </tr>
+          <tr class="gray">
+            <td>鬼牌</td>
+            <td id="joker">X</td>
+          </tr>
+        </table>
+        <hr class="featurette-divider">
+    <main role="main">
+
+            <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider">
+        
+        <!-- /END THE FEATURETTES -->
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="random-select/main.js"></script>
+    <script src="random-select/data.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+  </body>
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+  </footer>
+</html>
